@@ -1,0 +1,76 @@
+cdn- content delivery 
+position relative - positioned related to the normal position
+position absolute - positioned related to the parent tag which have position relative property
+
+flex - to place child element 
+
+justify-content: space-between;
+
+ align-items: center; to place content vertically
+
+ decender selector
+
+ pseudo class
+ --------------
+
+ it defines special state of an element 
+ eg: hover active link visited etc...
+
+ syntax
+
+ selector:pseudo_class{
+    property:value
+ }
+
+
+
+ pseudo element
+ ---------------
+ - allows you to style certain parts of an element 
+ -symbol (::)
+ - after , before , first-letter ,first-line, marker ,selection etc....
+ - syntax
+
+    selector::pseudoelement{
+        property:value
+    }
+
+
+
+css grid system
+------------------
+- columns and rows
+- display : grid
+- grid-template-column - column
+- grid-template-rows - rows
+
+
+
+
+rem - related to the font siz of the root element
+
+text-align: justify; - to align text same order
+
+
+
+linear gradient
+-----------------
+-to provide color combination
+syntax
+------
+background-Image: linear-gradient(to direction ,color1.....,colorn)
+
+
+
+define animation
+
+@keyframes Aname{
+    0%{
+        property:value
+    }
+    .
+    .
+    100%{
+        property:value
+    }
+}
